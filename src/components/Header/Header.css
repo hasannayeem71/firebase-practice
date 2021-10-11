@@ -1,0 +1,24 @@
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(216, 236, 99, 0.562);
+  padding: 15px 0px;
+  position: sticky;
+  top: 0;
+}
+.nav-container a {
+  text-decoration: none;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding-right: 2px;
+  border-right: 1px solid black;
+}
+.nav-container a:last-child {
+  border-right: none;
+}
+.nav-container button {
+  border: none;
+  font-size: 17px;
+  text-transform: uppercase;
+  background-color: transparent;
+}
